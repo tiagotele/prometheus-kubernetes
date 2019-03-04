@@ -5,9 +5,9 @@ This is a repo with useful kubernetes yaml files to deploy Prometheus and play a
 ## Requirements
 
 This repo works fine on my own environment:
-minikube version: v0.34.1
-kubectl version: v1.13.2
-OS: OSX 10.12.06
+- minikube version: v0.34.1
+- kubectl version: v1.13.2
+- OS: OSX 10.12.06
 
 ## Performing kubectl commands
 
@@ -42,3 +42,6 @@ minikube service monitoring-prometheus --url
 ```bash
 minikube stop
 ```
+
+## Installing and deleting stack
+There are scripts to speed up operations: install.sh and delete.sh
