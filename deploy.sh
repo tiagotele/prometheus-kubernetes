@@ -6,4 +6,4 @@ kubectl apply -f deployment.yml
 
 kubectl apply -f service.yml 
 
-echo "Prometheus is running at:" $(minikube service monitoring-prometheus --url)
+echo "Prometheus is running at:" $(open $(minikube service monitoring-prometheus --url))

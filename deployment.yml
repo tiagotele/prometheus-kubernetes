@@ -26,3 +26,5 @@ spec:
             items:
               - key: prometheus.yml
                 path: prometheus.yml
+              - key: prometheus.rules
+                path: prometheus.rules
